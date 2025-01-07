@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treinando</title>
+    <style>
+        body {
+            background-color: rgb(56, 56, 133);
+        }
+        div {
+            background-color: white;
+            width: 500px;
+            height: 50px;
+            text-align: center;
+            font: normal 30px arial;
+        }
+
+        h1 {
+            color: white;
+            font: Normal 25px arial;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Descubra sua nacionalidade!</h1>
+    <div>
+        <p>Em que país você nasceu?</p>
+        <input type="text" name="pais" id="pais">
+        <input type="button" value="Descobrir" onclick="nacio ()">
+    </div>
+    <div id="res">
+
+    </div>
+    <script>
+        function nacio () {
+            var p = window.document.getElementById('pais')
+            if (pais += 'Brasil') {
+                res.innerHTML += `Parabens, sua nacionalidade é <strong>Brasileiro!</strong>`
+            } else {
+                res.innerHTML += `Você é <strong>Estrangeiro!</strong>`
+            }
+            
+        }
+
+    </script>
+</body>
+</html>
