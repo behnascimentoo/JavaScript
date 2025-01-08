@@ -9,6 +9,12 @@ header {
     text-align: center;
 }
 
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
 section {
     background: white;
     border-radius: 10px;
