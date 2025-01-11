@@ -5,4 +5,5 @@ function parimpar(n) {
         return 'Ìmpar!'
     }
 }
-let res = parimpar(6)
+
+console.log(parimpar(223))
