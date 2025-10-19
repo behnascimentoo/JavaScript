@@ -26,6 +26,12 @@ O objetivo é aprender a linguagem **JavaScript** do zero e criar pequenos progr
 
 ---
 
+## 📝 Exercícios e Desafios
+
+- [Acesse aqui os Exercícios](https://behnascimentoo.github.io/JavaScript/index.html)
+
+---
+
 ## 💻 Como Visualizar Localmente
 
 1. Clone o repositório:
